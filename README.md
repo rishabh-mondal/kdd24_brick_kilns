@@ -1,0 +1,1 @@
+# kdd24_brick_kilns
