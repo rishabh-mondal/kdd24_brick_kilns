@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="logo_image.jpeg" alt="KDD24 Brick Kilns Image">
+</div>
+
 # kdd24_brick_kilns
 # Outline
 * [Data details](#data-details)
