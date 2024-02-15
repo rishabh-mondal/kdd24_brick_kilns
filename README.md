@@ -1,7 +1,6 @@
-<div style="width: 20px; height: 20px; overflow: hidden; margin: 0 auto;">
-  <img src="logo_image.jpeg" alt="KDD24 Brick Kilns Image" style="max-width: 50%; max-height: 50%; display: block; margin: 25 auto;">
-</div>
-
+<p align="center">
+  <img src="logo_image.jpeg" alt="KDD24 Brick Kilns Image" width="300">
+</p>
 
 # kdd24_brick_kilns
 # Outline
