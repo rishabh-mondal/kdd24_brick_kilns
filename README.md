@@ -1,4 +1,4 @@
-<div style="width: 300px; height: 300px; overflow: hidden; margin: 0 auto;">
+<div style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto;">
   <img src="logo_image.jpeg" alt="KDD24 Brick Kilns Image" style="max-width: 100%; max-height: 100%; display: block; margin: 0 auto;">
 </div>
 
