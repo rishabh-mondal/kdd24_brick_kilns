@@ -2,7 +2,7 @@
   <img src="logo_image.jpeg" alt="KDD24 Brick Kilns Image" width="300">
 </p>
 
-# kdd24_brick_kilns
+# Scalable Methods for Brick Kiln Detection from Satellite Imagery
 # Outline
 * [Data details](#data-details)
 * [Code details](#code-details)
