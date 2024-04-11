@@ -15,7 +15,7 @@
 
 We thank the reviewer for the suggestion. We downloaded 50 images of chemical plants, steel plants, and oil refineries and ran inference on them. The model did not misclassify any of these images as power plants. A few example images are attached here.
 
-| | | | | |
+| | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |![](images/negative/11.67,78.09.png)|![](images/negative/30.31,75.05.png)|![](images/negative/19.06,73.03.png)|
 |![](images/negative/28.59,77.31.png)|![](images/negative/28.35,18.40.png)|![](images/negative/24.25,78.16.png)|
