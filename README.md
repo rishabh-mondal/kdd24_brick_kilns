@@ -3,6 +3,12 @@
 </p>
 
 # Scalable Methods for Brick Kiln Detection from Satellite Imagery
+<p align="center">
+  <a href="https://arxiv.org/abs/2402.13796">
+    <img src="https://img.shields.io/badge/arXiv-2402.13796-green.svg" alt="arXiv">
+  </a>
+</p>
+
 # Outline
 * [Data details](#data-details)
 * [Code details](#code-details)
