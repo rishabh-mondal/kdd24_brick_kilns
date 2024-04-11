@@ -10,6 +10,7 @@
 </p>
 
 # Outline
+* [Rebuttal](rebuttal.md)
 * [Data details](#data-details)
 * [Code details](#code-details)
 * [Tables and figures](#tables-and-figures)
