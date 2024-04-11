@@ -1,9 +1,9 @@
 ## Extended Author Response
 
-- [Reviewer-1/nbj2](#reviewer-1/nbj2)
-- [Reviewer-2/7T6L](#reviewer-2/7t6l)
-- [Reviewer-3/A4cD](#reviewer-3/a4cd)
-- [Reviewer-4/Qbky](#reviewer-4/qbky)
+- [Reviewer-1/nbj2](#reviewer-1nbj2)
+- [Reviewer-2/7T6L](#reviewer-27t6l)
+- [Reviewer-3/A4cD](#reviewer-3a4cd)
+- [Reviewer-4/Qbky](#reviewer-4qbky)
 
 ### Reviewer-1/nbj2
 
