@@ -18,6 +18,6 @@ We thank the reviewer for the actionable suggestion. We downloaded 36 images inc
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |![](images/negative/11.67,78.09.png)|![](images/negative/30.31,75.05.png)|![](images/negative/19.06,73.03.png)|
-|![](images/negative/28.59,77.31.png)|![](images/negative/28.35,18.40.png)|![](images/negative/24.25,78.16.png)|
+|![](images/negative/28.59,77.31.png)|![](images/negative/21.17,81.38.png)|![](images/negative/24.25,78.16.png)|
 
 ### Reviewer-4/Qbky
