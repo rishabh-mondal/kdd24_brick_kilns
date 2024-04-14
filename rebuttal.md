@@ -29,9 +29,9 @@ We thank the reviewer for the actionable suggestion. We downloaded 36 images inc
 
 #### Population within K km of Brick Kilns
 
-|     state |        1 |       2 |       5 |      10 |    Total |
-|:----------|---------:|--------:|--------:|--------:|---------:|
-|    punjab |   2.99 M | 10.03 M | 25.64 M | 30.50 M |  31.04 M |
-|   haryana |   1.79 M |  6.34 M | 19.36 M | 28.62 M |  29.63 M |
-| jharkhand | 585.60 K |  2.04 M |  8.32 M | 19.75 M |  38.94 M |
-|     bihar |   6.01 M | 19.76 M | 58.08 M | 85.90 M | 124.90 M |
+|     state |   < 1 km |   < 2 km |   < 5 km |   < 10 km |   Total Population |
+|:----------|---------:|---------:|---------:|----------:|-------------------:|
+|    punjab |   2.99 M |  10.03 M |  25.64 M |   30.50 M |            31.04 M |
+|   haryana |   1.79 M |   6.34 M |  19.36 M |   28.62 M |            29.63 M |
+| jharkhand | 585.60 K |   2.04 M |   8.32 M |   19.75 M |            38.94 M |
+|     bihar |   6.01 M |  19.76 M |  58.08 M |   85.90 M |           124.90 M |
