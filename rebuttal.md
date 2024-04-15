@@ -45,7 +45,10 @@ We thank the reviewer for the actionable suggestion. We downloaded 36 images inc
 
 |     state |   < 1 km |   < 2 km |   < 5 km |   < 10 km |   Total Population |
 |:----------|---------:|---------:|---------:|----------:|-------------------:|
-|    punjab |   2.99 M |  10.03 M |  25.64 M |   30.50 M |            31.04 M |
-|   haryana |   1.79 M |   6.34 M |  19.36 M |   28.62 M |            29.63 M |
-| jharkhand | 585.60 K |   2.04 M |   8.32 M |   19.75 M |            38.94 M |
-|     bihar |   6.01 M |  19.76 M |  58.08 M |   85.90 M |           124.90 M |
+|    Punjab |   2.99 M |  10.03 M |  25.64 M |   30.50 M |            31.04 M |
+|   Haryana |   1.79 M |   6.34 M |  19.36 M |   28.62 M |            29.63 M |
+| Jharkhand | 585.60 K |   2.04 M |   8.32 M |   19.75 M |            38.94 M |
+|     Bihar |   6.01 M |  19.76 M |  58.08 M |   85.90 M |           124.90 M |
+| Madhya Pradesh | 448.60 K |   1.40 M |   5.84 M |   12.32 M |            84.69 M |
+|    West Bengal |   6.33 M |  18.54 M |  50.47 M |   79.70 M |           102.10 M |
+|  Uttar Pradesh |  16.13 M |  48.30 M | 135.26 M |  202.15 M |           233.00 M |
