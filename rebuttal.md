@@ -52,13 +52,15 @@ We thank the reviewer for the actionable suggestion. We downloaded 36 images inc
 | Madhya Pradesh | 448.60 K |   1.40 M |   5.84 M |   12.32 M |            84.69 M |
 |    West Bengal |   6.33 M |  18.54 M |  50.47 M |   79.70 M |           102.10 M |
 |  Uttar Pradesh |  16.13 M |  48.30 M | 135.26 M |  202.15 M |           233.00 M |
-
+| Himachal Pradesh | 261.14 K | 680.47 K |   2.11 M |    4.16 M |             7.61 M |
 
 #### Compliance with rivers
 
 ##### Punjab
 
 ![](images/punjab_bk_river.png)
+<!-- Fix height with original aspect ratio-->
+<!-- <img src="images/punjab_bk_river.png" width="100%" height="auto"> -->
 
 ##### Haryana
 
