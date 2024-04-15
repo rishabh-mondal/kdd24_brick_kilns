@@ -63,3 +63,13 @@ We thank the reviewer for the actionable suggestion. We downloaded 36 images inc
 ##### Haryana
 
 ![](images/haryana_bk_river.png)
+
+#### Compliance with hospitals
+
+##### Punjab
+
+![](images/punjab_bk_hosp.png)
+
+##### Haryana
+
+![](images/haryana_bk_hosp.png)
