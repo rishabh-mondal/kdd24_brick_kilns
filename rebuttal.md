@@ -30,16 +30,17 @@ We thank the reviewer for the actionable suggestion. We downloaded 36 images inc
 
 #### Number of Brick Kilns Detected per State
 
-| state          |   # of Brick Kilns |
-|:---------------|-------------------:|
-| Uttar Pradesh  |               5823 |
-| Haryana        |               2351 |
-| Punjab         |               2327 |
-| West Bengal    |               2291 |
-| Bihar          |               1726 |
-| Jharkhand      |                366 |
-| Madhya Pradesh |                212 |
-| Total          |              15096 |
+| state            |   # of Brick Kilns |
+|:-----------------|-------------------:|
+| Uttar Pradesh    |               5823 |
+| Haryana          |               2351 |
+| Punjab           |               2327 |
+| West Bengal      |               2291 |
+| Bihar            |               1726 |
+| Jharkhand        |                366 |
+| Madhya Pradesh   |                212 |
+| Himachal Pradesh |                151 |
+| Total            |              15247 |
 
 #### Population within K km of Brick Kilns
 
