@@ -5,7 +5,7 @@
 - [Reviewer-3/A4cD](#reviewer-3a4cd)
 - [Reviewer-4/Qbky](#reviewer-4qbky)
 - [New Results](#new-results)
-    - [Number of Brick Kilns per State](#number-of-brick-kilns-per-state)
+    - [Number of Brick Kilns Detected per State](#number-of-brick-kilns-detected-per-state)
     - [Population Within K km of Brick Kilns](#population-within-k-km-of-brick-kilns)
 
 ### Reviewer-1/nbj2
@@ -28,7 +28,7 @@ We thank the reviewer for the actionable suggestion. We downloaded 36 images inc
 
 ### New Results
 
-#### Number of Brick Kilns per State
+#### Number of Brick Kilns Detected per State
 
 | state          |   # of Brick Kilns |
 |:---------------|-------------------:|
