@@ -1,7 +1,7 @@
 ## Extended Author Response
 
 - [Overall response](#overall-response)
-    - [Scatter plot of Brick Kilns in IG Plain](#scatter-of-brick-kilns-in-ig-plain)
+    - [Scatter plot of Brick Kilns in IG Plain](#scatter-plot-of-brick-kilns-in-ig-plain)
     - [Number of Brick Kilns Detected per State](#number-of-brick-kilns-detected-per-state)
     - [Population Within K km of Brick Kilns](#population-within-k-km-of-brick-kilns)
 - [Reviewer-1/nbj2](#reviewer-1nbj2)
