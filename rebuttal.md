@@ -233,6 +233,16 @@ Emissions in tons per day.
 
 ## Reviewer-1/nbj2
 
+> The proposed method is based on pre-trained SimCLR or JigSaw, both are published more than 3 years ago. There are a lot of advanced alternatives such as DINOv2 and iBOT. The justification of not using these advanced pre-trained models is not clear.
+
+We thank the reviewer for the suggestion. Based on the suggestion, we experimented with 4 other SSL methods: 1) Simsiam; 2) DCL; 3) BYOL; and 4) Dino. 
+
+
+> The technical conclusion is trivial. For example, as indicated in lines 168-172, few shot learning on pre-trained model significantly enhancing the performance is a well-known outcome.
+
+
+
+
 ## Reviewer-2/7T6L
 
 ## Reviewer-3/A4cD
