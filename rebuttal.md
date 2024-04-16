@@ -62,7 +62,7 @@ Following are the detailed statistics and plots for the points mentioned above.
 ![](images/ig_plain_bk_fcbk.png)
 
 #### Zigzag Kilns
-![](images/ig_plain_bk_zigzag)
+![](images/ig_plain_bk_zigzag.png)
 
 ### Number of Brick Kilns Detected per State
 
