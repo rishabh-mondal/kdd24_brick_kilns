@@ -3,6 +3,8 @@
 - [Extended Author Response](#extended-author-response)
   - [Overall response](#overall-response)
     - [Scatter plot of Brick Kilns in IG Plain](#scatter-plot-of-brick-kilns-in-ig-plain)
+      - [Fixed Chimney Bull's Trench Kilns (FCBK)](#fixed-chimney-bulls-trench-kilns-fcbk)
+      - [Zigzag Kilns](#zigzag-kilns)
     - [Number of Brick Kilns Detected per State](#number-of-brick-kilns-detected-per-state)
     - [Population within K km of Brick Kilns](#population-within-k-km-of-brick-kilns)
     - [Contribution of brick kilns to PM2.5 pollution in Delhi-NCR](#contribution-of-brick-kilns-to-pm25-pollution-in-delhi-ncr)
@@ -56,7 +58,11 @@ Following are the detailed statistics and plots for the points mentioned above.
 
 ### Scatter plot of Brick Kilns in IG Plain
 
-![](images/ig_plain_bk.png)
+#### Fixed Chimney Bull's Trench Kilns (FCBK)
+![](images/ig_plain_bk_fcbk.png)
+
+#### Zigzag Kilns
+![](images/ig_plain_bk_zigzag)
 
 ### Number of Brick Kilns Detected per State
 
