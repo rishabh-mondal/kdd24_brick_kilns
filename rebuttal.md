@@ -14,9 +14,23 @@
     - [Compliance with rivers](#compliance-with-rivers)
       - [Punjab](#punjab)
       - [Haryana](#haryana)
+      - [Uttar Pradesh](#uttar-pradesh)
+      - [Bihar](#bihar)
+      - [West Bengal](#west-bengal)
+      - [Jharkhand](#jharkhand)
+      - [Madhya Pradesh](#madhya-pradesh)
+      - [Himachal Pradesh](#himachal-pradesh)
+      - [Uttarakhand](#uttarakhand)
     - [Compliance with hospitals](#compliance-with-hospitals)
       - [Punjab](#punjab-1)
       - [Haryana](#haryana-1)
+      - [Uttar Pradesh](#uttar-pradesh-1)
+      - [Bihar](#bihar-1)
+      - [West Bengal](#west-bengal-1)
+      - [Jharkhand](#jharkhand-1)
+      - [Madhya Pradesh](#madhya-pradesh-1)
+      - [Himachal Pradesh](#himachal-pradesh-1)
+      - [Uttarakhand](#uttarakhand-1)
   - [Reviewer-1/nbj2](#reviewer-1nbj2)
   - [Reviewer-2/7T6L](#reviewer-27t6l)
   - [Reviewer-3/A4cD](#reviewer-3a4cd)
@@ -50,11 +64,11 @@ Based on the reviewers comments, and ongoing deployments, we are happy to share 
 
 1. We have further segregated the brick kilns based on two types of kilns: Zigzag and FCBK (Fixed Chimney Bull's Trench Kiln). We found that **70% of the brick kilns are Zigzag kilns and rest are FCBK**.
 
-1. We ran [WRF-CAMx](https://www.camx.com/) simulation over Delhi-NCR region for Nov-Dec 2023 and found the brick kilns contribute 8% of PM2.5 pollution in the region.
+2. We ran a Chemical Transport Model, [WRF-CAMx](https://www.camx.com/) over Delhi-NCR region for Nov-Dec 2023 with help of an air quality expert and found that brick kilns contribute 8% of PM2.5 pollution in the region.
 
-1. We estimate PM2.5 emissions from brick kilns to be 1751 to 3502 tons per day.
+1. We estimate PM2.5 emissions from brick kilns to be 1261 to 2522 tons per day. If all FCBK kilns are converted to Zigzag, this range will reduce to 1050 to 2101 tons per day i.e. a reduction of 16%.
 
-Following are the detailed statistics and plots for the points mentioned above.
+Following are the detailed statistics and plots to support the points mentioned above.
 
 ### Scatter plot of Brick Kilns in IG Plain
 
@@ -100,49 +114,82 @@ Following are the detailed statistics and plots for the points mentioned above.
 
 
 ### Estimation of emissions:
-Emission factors (g/brick): {"PM2.5": 6.8, "PM10": 9.7, "SO2": 4.6, "NOx": 4.7, "CO": 90.0, "CO2": 520, "BC": 2.8}
+We get the following emission factors (g/brick) from [[Guttikunda et al., 2012](https://link.springer.com/article/10.1007/s11869-012-0187-2)]: {"PM2.5": 6.8, "PM10": 9.7, "SO2": 4.6, "NOx": 4.7, "CO": 90.0, "CO2": 520, "BC": 2.8}
+
+Small scale kilns make less than 15000 bricks per day, while large scale kilns make more than 30000 bricks per day [[Guttikunda et al., 2012](https://link.springer.com/article/10.1007/s11869-012-0187-2)]. So, on an average, we computed emissions for 15000 and 30000 bricks per day per kiln.
 
 #### Assuming 15000 bricks per day per kiln
+Emissions in tons per day.
 
-|                  |   PM2.5 |    PM10 |     SO2 |     NOx |      CO |     CO2 |      BC |   Total |
-| :--------------- | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: |
-| uttar_pradesh    | 459.612 | 655.623 | 310.914 | 317.673 |  6083.1 | 35146.8 | 189.252 |   43163 |
-| haryana          | 143.881 | 205.242 | 97.3314 | 99.4473 | 1904.31 | 11002.7 | 59.2452 | 13512.1 |
-| punjab           | 142.412 | 203.147 | 96.3378 | 98.4321 | 1884.87 | 10890.4 | 58.6404 | 13374.2 |
-| west_bengal      | 140.209 | 200.004 | 94.8474 | 96.9093 | 1855.71 | 10721.9 | 57.7332 | 13167.3 |
-| bihar            | 105.631 |  150.68 | 71.4564 | 73.0098 | 1398.06 | 8077.68 | 43.4952 | 9920.01 |
-| jharkhand        | 22.3992 | 31.9518 | 15.1524 | 15.4818 |  296.46 | 1712.88 |  9.2232 | 2103.55 |
-| uttarakhand      | 14.2596 | 20.3409 |  9.6462 |  9.8559 |  188.73 | 1090.44 |  5.8716 | 1339.14 |
-| madhya_pradesh   | 12.9744 | 18.5076 |  8.7768 |  8.9676 |  171.72 |  992.16 |  5.3424 | 1218.45 |
-| himachal_pradesh |  9.2412 | 13.1823 |  6.2514 |  6.3873 |  122.31 |  706.68 |  3.8052 | 867.857 |
-| Total            | 1050.62 | 1498.68 | 710.714 | 726.164 | 13905.3 | 80341.6 | 432.608 | 98665.6 |
+
+|                  |   PM2.5 |   PM10 |    SO2 |    NOx |      CO |     CO2 |     BC |   Total |
+| :--------------- | ------: | -----: | -----: | -----: | ------: | ------: | -----: | ------: |
+| bihar            |  114.28 | 163.02 |  77.31 |  78.99 | 1512.54 | 8739.12 |  47.06 | 10732.3 |
+| haryana          |  149.47 | 213.22 | 101.11 | 103.31 | 1978.29 | 11430.1 |  61.55 | 14037.1 |
+| himachal_pradesh |    9.98 |  14.23 |   6.75 |   6.89 |  132.03 |  762.84 |   4.11 |  936.83 |
+| jharkhand        |   35.01 |  49.94 |  23.68 |   24.2 |  463.32 | 2676.96 |  14.41 | 3287.51 |
+| madhya_pradesh   |   18.65 |   26.6 |  12.61 |  12.89 |  246.78 | 1425.84 |   7.68 | 1751.04 |
+| punjab           |  153.92 | 219.56 | 104.12 | 106.38 | 2037.15 | 11770.2 |  63.38 | 14454.7 |
+| uttar_pradesh    |  595.72 | 849.78 | 402.99 | 411.75 | 7884.54 | 45555.1 |  245.3 | 55945.2 |
+| uttarakhand      |   17.07 |  24.36 |  11.55 |   11.8 |  225.99 | 1305.72 |   7.03 | 1603.52 |
+| west_bengal      |  167.34 | 238.71 |  113.2 | 115.66 | 2214.81 | 12796.7 |  68.91 | 15715.3 |
+| Total            | 1261.43 | 1799.4 | 853.32 | 871.87 | 16695.5 | 96462.6 | 519.41 |  118463 |
 
 #### Assuming 30000 bricks per day per kiln
+Emissions in tons per day.
 
 |                  |   PM2.5 |    PM10 |     SO2 |     NOx |      CO |     CO2 |      BC |   Total |
 | :--------------- | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: |
-| uttar_pradesh    | 919.224 | 1311.25 | 621.828 | 635.346 | 12166.2 | 70293.6 | 378.504 | 86325.9 |
-| haryana          | 287.762 | 410.485 | 194.663 | 198.895 | 3808.62 | 22005.4 |  118.49 | 27024.3 |
-| punjab           | 284.825 | 406.294 | 192.676 | 196.864 | 3769.74 | 21780.7 | 117.281 | 26748.4 |
-| west_bengal      | 280.418 | 400.009 | 189.695 | 193.819 | 3711.42 | 21443.8 | 115.466 | 26334.6 |
-| bihar            | 211.262 |  301.36 | 142.913 |  146.02 | 2796.12 | 16155.4 | 86.9904 |   19840 |
-| jharkhand        | 44.7984 | 63.9036 | 30.3048 | 30.9636 |  592.92 | 3425.76 | 18.4464 |  4207.1 |
-| uttarakhand      | 28.5192 | 40.6818 | 19.2924 | 19.7118 |  377.46 | 2180.88 | 11.7432 | 2678.29 |
-| madhya_pradesh   | 25.9488 | 37.0152 | 17.5536 | 17.9352 |  343.44 | 1984.32 | 10.6848 |  2436.9 |
-| himachal_pradesh | 18.4824 | 26.3646 | 12.5028 | 12.7746 |  244.62 | 1413.36 |  7.6104 | 1735.71 |
-| Total            | 2101.24 | 2997.36 | 1421.43 | 1452.33 | 27810.5 |  160683 | 865.217 |  197331 |
+| bihar            |  228.56 |  326.04 |  154.62 |  157.98 | 3025.08 | 17478.2 |   94.11 | 21464.6 |
+| haryana          |  298.94 |  426.43 |  202.23 |  206.62 | 3956.58 | 22860.2 |  123.09 | 28074.1 |
+| himachal_pradesh |   19.95 |   28.46 |    13.5 |   13.79 |  264.06 | 1525.68 |    8.22 | 1873.65 |
+| jharkhand        |   70.01 |   99.87 |   47.36 |   48.39 |  926.64 | 5353.92 |   28.83 | 6575.03 |
+| madhya_pradesh   |   37.29 |   53.19 |   25.23 |   25.77 |  493.56 | 2851.68 |   15.36 | 3502.08 |
+| punjab           |  307.84 |  439.12 |  208.24 |  212.77 |  4074.3 | 23540.4 |  126.76 | 28909.4 |
+| uttar_pradesh    | 1191.44 | 1699.56 |  805.98 |   823.5 | 15769.1 | 91110.2 |  490.59 |  111890 |
+| uttarakhand      |   34.15 |   48.71 |    23.1 |    23.6 |  451.98 | 2611.44 |   14.06 | 3207.05 |
+| west_bengal      |  334.68 |  477.41 |   226.4 |  231.32 | 4429.62 | 25593.4 |  137.81 | 31430.6 |
+| Total            | 2522.87 |  3598.8 | 1706.65 | 1743.75 | 33390.9 |  192925 | 1038.83 |  236927 |
 
 ### Compliance with rivers
 
 #### Punjab
 
 ![](images/punjab_bk_river.png)
-<!-- Fix height with original aspect ratio-->
-<!-- <img src="images/punjab_bk_river.png" width="100%" height="auto"> -->
 
 #### Haryana
 
 ![](images/haryana_bk_river.png)
+
+#### Uttar Pradesh
+
+![](images/uttar_pradesh_bk_river.png)
+
+
+#### Bihar
+
+![](images/bihar_bk_river.png)
+
+#### West Bengal
+
+![](images/west_bengal_bk_river.png)
+
+#### Jharkhand
+
+![](images/jharkhand_bk_river.png)
+
+#### Madhya Pradesh
+
+![](images/madhya_pradesh_bk_river.png)
+
+#### Himachal Pradesh
+
+![](images/himachal_pradesh_bk_river.png)
+
+#### Uttarakhand
+
+![](images/uttarakhand_bk_river.png)
+
 
 ### Compliance with hospitals
 
@@ -153,6 +200,35 @@ Emission factors (g/brick): {"PM2.5": 6.8, "PM10": 9.7, "SO2": 4.6, "NOx": 4.7, 
 #### Haryana
 
 ![](images/haryana_bk_hosp.png)
+
+
+#### Uttar Pradesh
+
+![](images/uttar_pradesh_bk_hosp.png)
+
+#### Bihar
+
+![](images/bihar_bk_hosp.png)
+
+#### West Bengal
+
+![](images/west_bengal_bk_hosp.png)
+
+#### Jharkhand
+
+![](images/jharkhand_bk_hosp.png)
+
+#### Madhya Pradesh
+
+![](images/madhya_pradesh_bk_hosp.png)
+
+#### Himachal Pradesh
+
+![](images/himachal_pradesh_bk_hosp.png)
+
+#### Uttarakhand
+
+![](images/uttarakhand_bk_hosp.png)
 
 
 ## Reviewer-1/nbj2
