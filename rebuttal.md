@@ -37,6 +37,10 @@ Based on the reviewers comments, and ongoing deployments, we are happy to share 
 
 1. We have further segregated the brick kilns based on two types of kilns: Zigzag and FCBK (Fixed Chimney Bull's Trench Kiln). We found that **70% of the brick kilns are Zigzag kilns and rest are FCBK**.
 
+1. We ran [WRF-CAMx](https://www.camx.com/) simulation over Delhi-NCR region for Nov-Dec 2023 and found the brick kilns contribute 8% of PM2.5 pollution in the region.
+
+Following are the detailed statistics and plots for the points mentioned above.
+
 ### Scatter plot of Brick Kilns in IG Plain
 
 ![](images/ig_plain_bk.png)
@@ -70,6 +74,10 @@ Based on the reviewers comments, and ongoing deployments, we are happy to share 
 |      Uttarakhand |   319.41 K |   1.31 M |   3.91 M |            11.64 M |
 | Himachal Pradesh |   175.10 K | 680.47 K |   2.11 M |             7.61 M |
 |            Total |    26.40 M | 123.42 M | 342.55 M |           663.55 M |
+
+### Contribution of brick kilns to PM2.5 pollution in Delhi-NCR
+
+![](images/kdd24_pm25_brick_kiln_contribution.png)
 
 ### Compliance with rivers
 
