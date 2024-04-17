@@ -47,15 +47,17 @@
 
 ## Overall response
 
-We thank the reviewers for their constructive and actionable feedback. We want to re-emphasize that our aim in this paper is towards deployability and not novelty. Specifically, we want to target the *Data and Benchmarking for Data Science Application Domains (including curation validation and release of large-scale data, experiments, performance benchmarking)* area mentioned in the [KDD ADS Scope](https://kdd2024.kdd.org/applied-data-science-ads-track-call-for-papers/).
+We thank the reviewers for their constructive and actionable feedback. 
 
-Brick kilns not only contribute significantly to air pollution [[1](https://link.springer.com/article/10.1007/s11869-012-0187-2)] but also employ a large number of laborers including children [[2](https://www.sciencedirect.com/science/article/abs/pii/S1352231014006888)].
+We want to re-emphasize that our aim in this paper is towards deployability and not novelty. Specifically, we want to target the *Data and Benchmarking for Data Science Application Domains (including curation validation and release of large-scale data, experiments, performance benchmarking)* area mentioned in the [KDD ADS Scope](https://kdd2024.kdd.org/applied-data-science-ads-track-call-for-papers/).
 
-We believe that our work and the associated curated datasets, benchmarks, and most importantly compliance studies will further the research in this area.
+Brick kilns not only contribute significantly to air pollution [[1](https://link.springer.com/article/10.1007/s11869-012-0187-2)] but also employ a large number of laborers, including children [[2](https://www.sciencedirect.com/science/article/abs/pii/S1352231014006888)].
 
-Based on the reviewers' comments, and ongoing deployments, we are happy to share some (revised) statistics and points with the reviewers.
+We believe that our work and the associated curated datasets, benchmarks, and, most importantly, compliance studies will further the research in this area.
 
-1. Based on reviewers's suggestions we implemented 3 more SSL methods: i) Simsiam; ii) BYOL and iii) DINO. Their performance of the model is comparable or superior to the pre-trained models mentioned in the paper.
+Based on the reviewers' comments and ongoing deployments, we are happy to share some (revised) statistics and points with the reviewers.
+
+1. Based on reviewers' suggestions, we implemented three more SSL methods: 1) [Simsiam](https://arxiv.org/abs/2011.10566); 2) [BYOL](https://arxiv.org/abs/2006.07733); and 3) [Dino](https://arxiv.org/abs/2104.14294). Their performance is comparable or superior to the pre-trained ImageNet model mentioned in the paper.
 
 2. Our study now encompasses regions in India where 47% of the population resides.
 
@@ -333,7 +335,7 @@ We agree with the reviewer that the pipeline for the detection is well-establish
 * Brick kilns should be at least 500 m from rivers.
 * Brick kilns should be at least 800 m from hospitals.
 * PM2.5 contribution of brick kilns with a Chemical Transport Model.
-* Estimation of emissions from brick kilns and the impact of converting old kilns to Zigzag or Hoffman kilns.
+* Estimation of emissions from brick kilns and the impact of converting old kilns to Zigzag or Hoffmann kilns.
 
 
 ## Reviewer-2/7T6L
@@ -343,7 +345,7 @@ We thank the reviewer for the actionable feedback. We have responded to the conc
 > While the experiments are extensive, they lack insightful conclusions, seemingly yielding similar results to any CV-related method. I would like to see innovation in the proposed solutions, as well as unique methodologies for addressing the issue. I would expect to see a discussion on the correlation between density-based strategies and air pollution, as this is a key factor supporting the motivation of this paper. As a system intended for practical implementation, it should indeed incorporate additional considerations related to air pollution. These may include factors such as the scale of brick kiln, historical emissions of pollutants and prevailing wind patterns. Integrating such contextual information can enhance the system's effectiveness in accurately assessing the impact of brick kiln activities on air quality and facilitating targeted mitigation efforts.
 
 We have now included the following points in the overall response among others:
-* We estimate the emission factors from brick kilns from [[Guttikunda et al., 2012](https://link.springer.com/article/10.1007/s11869-012-0187-2)] and estimate the emissions from brick kilns in the region of study. We also show that if all FCBK kilns are converted to Zigzag, the emissions will be reduced by 16% and if all kilns are converted to Hoffman kilns, the emissions will be reduced by 86%. Please refer to the tables [here](https://github.com/rishabh-mondal/kdd24_brick_kilns/blob/main/rebuttal.md#estimation-of-emissions).
+* We estimate the emission factors from brick kilns from [[Guttikunda et al., 2012](https://link.springer.com/article/10.1007/s11869-012-0187-2)] and estimate the emissions from brick kilns in the region of study. We also show that if all FCBK kilns are converted to Zigzag, the emissions will be reduced by 16% and if all kilns are converted to Hoffmann kilns, the emissions will be reduced by 86%. Please refer to the tables [here](https://github.com/rishabh-mondal/kdd24_brick_kilns/blob/main/rebuttal.md#estimation-of-emissions).
 
 * We have run a Chemical Transport Model (CTM), [WRF-CAMx](https://www.camx.com/) over the Delhi-NCR region for Nov-Dec 2023 with the help of an air quality expert and found that brick kilns contribute 8% of PM2.5 pollution in the region for this period. Please refer to the plot [here](https://github.com/rishabh-mondal/kdd24_brick_kilns/blob/main/rebuttal.md#contribution-of-brick-kilns-to-pm25-pollution-in-delhi-ncr).
 
@@ -410,7 +412,7 @@ We thank the reviewer for this actionable feedback. We have already taken a step
 
 > How do you plan to address the challenge of model generalization across different geographical regions, especially those with varying environmental conditions and brick kiln structures?
 
-We have looked at [[Guttikunda et al., 2013](https://link.springer.com/article/10.1007/s11869-013-0213-z), [UrbanEmissions.info](https://www.brookings.edu/wp-content/uploads/2016/10/guttikunda-iaqi-pps-and-bricks.pdf)] and found following 6 types of major brick kiln technologies in India: 1) Fixed Chimney Bull's Trench Kilns (FCBK); 2) Zigzag Kilns; 3) Clamps; and 4) Hoffman Kilns; 5) VSBK (Vertical Shaft Brick Kilns); and 6) Induced draught kilns. For now, we have segregated the brick kilns based on the two most common brick kiln types in India: Zigzag and FCBK (Fixed Chimney Bull's Trench Kiln). We found that **71% of the brick kilns are Zigzag **kilns and **the **rest**** are FCBK****. We will add samples from other kiln types in the future to improve the generalization of the model.
+We have looked at [[Guttikunda et al., 2013](https://link.springer.com/article/10.1007/s11869-013-0213-z), [UrbanEmissions.info](https://www.brookings.edu/wp-content/uploads/2016/10/guttikunda-iaqi-pps-and-bricks.pdf)] and found following 6 types of major brick kiln technologies in India: 1) Fixed Chimney Bull's Trench Kilns (FCBK); 2) Zigzag Kilns; 3) Clamps; and 4) Hoffmann Kilns; 5) VSBK (Vertical Shaft Brick Kilns); and 6) Induced draught kilns. For now, we have segregated the brick kilns based on the two most common brick kiln types in India: Zigzag and FCBK (Fixed Chimney Bull's Trench Kiln). We found that **71% of the brick kilns are Zigzag **kilns and **the **rest**** are FCBK****. We will add samples from other kiln types in the future to improve the generalization of the model.
 
 > What strategies do you recommend for the ongoing monitoring and upkeep of the brick kiln detection system, given the ever-changing landscape of the brick manufacturing sector?
 
