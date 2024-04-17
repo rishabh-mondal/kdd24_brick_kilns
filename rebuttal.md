@@ -11,6 +11,7 @@
     - [Number of Brick Kilns Detected per State](#number-of-brick-kilns-detected-per-state)
     - [Population within K km of Brick Kilns](#population-within-k-km-of-brick-kilns)
     - [Contribution of brick kilns to PM2.5 pollution in Delhi-NCR](#contribution-of-brick-kilns-to-pm25-pollution-in-delhi-ncr)
+    - [Correlation between brick kilns and PM2.5 pollution in Delhi-NCR](#correlation-between-brick-kilns-and-pm25-pollution-in-delhi-ncr)
     - [Estimation of emissions:](#estimation-of-emissions)
       - [Assuming 15000 bricks per day per kiln](#assuming-15000-bricks-per-day-per-kiln)
       - [Assuming 30000 bricks per day per kiln](#assuming-30000-bricks-per-day-per-kiln)
@@ -144,6 +145,12 @@ All models have EfficientNet B0 as the backbone and are tested on 50% holdout da
 ### Contribution of brick kilns to PM2.5 pollution in Delhi-NCR
 
 ![](images/kdd24_pm25_brick_kiln_contribution.png)
+
+
+### Correlation between brick kilns and PM2.5 pollution in Delhi-NCR
+We get the brick kilns specific PM2.5 concentrations from the Chemical Transport Model CAMx and show the following animation over Delhi-NCR region.
+
+![](images/delhi_kilns.gif)
 
 
 ### Estimation of emissions:
